@@ -1,0 +1,26 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/pxx/Documents/slambook/ch5/cv:mat exercise1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59fd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59fd8.dir/build.make CMakeFiles/cmTC_59fd8.dir/build
+make[1]: Entering directory '/home/pxx/Documents/slambook/ch5/cv:mat exercise1/cmake-build-debug/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_59fd8.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/pxx/Documents/slambook/ch5/cv:mat exercise1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_59fd8/fast' failed
+make: *** [cmTC_59fd8/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /home/pxx/Documents/slambook/ch5/cv:mat exercise1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e359/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e359.dir/build.make CMakeFiles/cmTC_6e359.dir/build
+make[1]: Entering directory '/home/pxx/Documents/slambook/ch5/cv:mat exercise1/cmake-build-debug/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_6e359.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/pxx/Documents/slambook/ch5/cv:mat exercise1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_6e359/fast' failed
+make: *** [cmTC_6e359/fast] Error 2
+
+
+

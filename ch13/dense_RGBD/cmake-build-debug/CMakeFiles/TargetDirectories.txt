@@ -1,0 +1,4 @@
+/home/pxx/Documents/slambook/ch13/dense_RGBD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pxx/Documents/slambook/ch13/dense_RGBD/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pxx/Documents/slambook/ch13/dense_RGBD/cmake-build-debug/CMakeFiles/octo_mapping.dir
+/home/pxx/Documents/slambook/ch13/dense_RGBD/cmake-build-debug/CMakeFiles/dense_RGBD.dir

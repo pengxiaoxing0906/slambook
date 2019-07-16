@@ -1,0 +1,4 @@
+/home/pxx/Downloads/clion-2018.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pxx/Documents/slambook/ch7/pose_estimation_3d2d
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pxx/Documents/slambook/ch7/pose_estimation_3d2d/cmake-build-debug

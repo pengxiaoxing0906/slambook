@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pose_graph.dir/pose_graph_g2o_lie_algebra.cpp.o  -o pose_graph 

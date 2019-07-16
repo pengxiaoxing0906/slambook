@@ -1,0 +1,4 @@
+/home/pxx/Documents/slambook/ch12/loop_closure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pxx/Documents/slambook/ch12/loop_closure/cmake-build-debug/CMakeFiles/loop_closure.dir
+/home/pxx/Documents/slambook/ch12/loop_closure/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pxx/Documents/slambook/ch12/loop_closure/cmake-build-debug/CMakeFiles/feature_training.dir

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pxx/Documents/slambook/ch10/ceres_custombundle/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc381/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc381.dir/build.make CMakeFiles/cmTC_cc381.dir/build
+make[1]: Entering directory '/home/pxx/Documents/slambook/ch10/ceres_custombundle/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc381.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cc381.dir/CheckSymbolExists.c.o   -c /home/pxx/Documents/slambook/ch10/ceres_custombundle/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cc381
+/home/pxx/Downloads/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc381.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc381.dir/CheckSymbolExists.c.o  -o cmTC_cc381 
+CMakeFiles/cmTC_cc381.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cc381.dir/build.make:86: recipe for target 'cmTC_cc381' failed
+make[1]: *** [cmTC_cc381] Error 1
+make[1]: Leaving directory '/home/pxx/Documents/slambook/ch10/ceres_custombundle/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_cc381/fast' failed
+make: *** [cmTC_cc381/fast] Error 2
+
+File /home/pxx/Documents/slambook/ch10/ceres_custombundle/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pxx/Documents/slambook/ch10/ceres_custombundle/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5334/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5334.dir/build.make CMakeFiles/cmTC_c5334.dir/build
+make[1]: Entering directory '/home/pxx/Documents/slambook/ch10/ceres_custombundle/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5334.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c5334.dir/CheckFunctionExists.c.o   -c /home/pxx/Downloads/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c5334
+/home/pxx/Downloads/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5334.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c5334.dir/CheckFunctionExists.c.o  -o cmTC_c5334 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c5334.dir/build.make:86: recipe for target 'cmTC_c5334' failed
+make[1]: *** [cmTC_c5334] Error 1
+make[1]: Leaving directory '/home/pxx/Documents/slambook/ch10/ceres_custombundle/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c5334/fast' failed
+make: *** [cmTC_c5334/fast] Error 2
+
+

@@ -1,0 +1,3 @@
+/home/pxx/Documents/slambook/ch7/trianglation/build/CMakeFiles/edit_cache.dir
+/home/pxx/Documents/slambook/ch7/trianglation/build/CMakeFiles/rebuild_cache.dir
+/home/pxx/Documents/slambook/ch7/trianglation/build/CMakeFiles/trianglation.dir
